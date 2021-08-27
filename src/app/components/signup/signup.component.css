@@ -1,0 +1,10 @@
+.signupform{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: #65d0d4;
+    font-weight: 700;
+}

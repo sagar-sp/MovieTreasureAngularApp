@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-12 mt-5" *ngFor="let details of people">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://image.tmdb.org/t/p/w500{{details.profile_path}}" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">
+                        {{details.name}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
