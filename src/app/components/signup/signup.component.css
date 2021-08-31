@@ -8,3 +8,10 @@
     color: #65d0d4;
     font-weight: 700;
 }
+.invalid {
+    border-left: red 5px solid;
+}
+
+.valid {
+    border-left: green 5px solid;
+}
